@@ -16,13 +16,19 @@
         <item name="android:textColor">#441100</item>
         <item name="android:textStyle">bold</item>
         <item name="android:background">#fff</item>
-        <item name="android:layout_marginBottom">5px</item>
+        <item name="android:layout_marginBottom">10px</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+
     </style>
     <style name="MyEditTextStyle" parent="android:Widget.EditText">
         <item name="android:textColor">#fff</item>
         <item name="android:textStyle">bold</item>
         <item name="android:background">#441100</item>
-        <item name="android:layout_marginBottom">5px</item>
+        <item name="android:layout_marginBottom">10px</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+
     </style>
 
 </resources>

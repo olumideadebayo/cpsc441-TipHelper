@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_column="2"
-    android:layout_row="10"
+    android:layout_row="8"
     tools:theme="@style/AppTheme">
 
     <TableRow
@@ -28,19 +28,17 @@
 
         <TextView
             android:id="@+id/textView120"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:gravity="left"
-
-            android:text="Enter Total" />
+            android:gravity="start"
+            android:layout_width="0dp"
+        android:text="Enter Total" />
 
         <EditText
             android:id="@+id/total"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberDecimal"
-
+            android:layout_width="0dp"
             android:gravity="end" />
 
     </TableRow>
@@ -54,16 +52,16 @@
             android:layout_height="wrap_content"
             android:gravity="left"
             android:lines="1"
+            android:layout_width="0dp"
             android:paddingLeft="5dp"
             android:text="with 5% tip" />
 
         <EditText
             android:id="@+id/fivept"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:inputType="numberDecimal"
             android:gravity="end"
+            android:layout_width="0dp"
  />
 
     </TableRow>
@@ -75,18 +73,17 @@
         <TextView
             android:id="@+id/textView3"
             android:layout_height="wrap_content"
-            android:gravity="left"
+            android:gravity="start"
             android:lines="1"
+            android:layout_width="0dp"
             android:paddingLeft="5dp"
             android:text="with 10% tip" />
 
         <EditText
             android:id="@+id/tenpt"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:gravity="end"
-
+            android:layout_width="0dp"
             android:inputType="numberDecimal" />
     </TableRow>
 
@@ -97,27 +94,22 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_height="wrap_content"
-            android:gravity="left"
+            android:gravity="start"
             android:lines="1"
             android:paddingLeft="5dp"
             android:tag="css"
-
+            android:layout_width="0dp"
             android:text="with 15% tip" />
 
         <EditText
             android:id="@+id/fifteenpt"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:gravity="end"
+            android:layout_width="0dp"
             android:inputType="numberDecimal" />
     </TableRow>
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
@@ -125,16 +117,16 @@
 
         <SeekBar
             android:id="@+id/seekBar"
-            android:layout_width="wrap_content"
             android:max="34"
+            android:layout_width="0dp"
             android:tooltipText="slide to specify custom %" />
 
         <EditText
             android:id="@+id/sliderText"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="end"
             android:enabled="false"
+            android:layout_width="0dp"
             android:text="" />
     </TableRow>
 
@@ -145,8 +137,8 @@
         <TextView
             android:id="@+id/textView20"
             android:layout_height="wrap_content"
-            android:gravity="left"
-
+            android:gravity="start"
+            android:layout_width="0dp"
             android:text="custom % tip" />
 
         <EditText
@@ -154,19 +146,11 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-
+            android:layout_width="0dp"
             android:gravity="end" />
 
     </TableRow>
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
@@ -175,21 +159,11 @@
         <Button
             android:id="@+id/calculate"
             android:layout_height="wrap_content"
-
             android:layout_column="0"
-
             android:layout_span="2"
             android:gravity="center"
             android:onClick="calculateTips"
             android:text="calculate" />
     </TableRow>
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </TableRow>
 </TableLayout>
