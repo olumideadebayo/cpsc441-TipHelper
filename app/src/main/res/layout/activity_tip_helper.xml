@@ -13,7 +13,7 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_span="2"
             android:gravity="center"
@@ -28,7 +28,7 @@
 
         <TextView
             android:id="@+id/textView120"
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:gravity="left"
 
@@ -36,7 +36,7 @@
 
         <EditText
             android:id="@+id/total"
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberDecimal"
@@ -52,7 +52,6 @@
         <TextView
             android:id="@+id/textView22"
             android:layout_height="wrap_content"
-
             android:gravity="left"
             android:lines="1"
             android:paddingLeft="5dp"
@@ -145,7 +144,6 @@
 
         <TextView
             android:id="@+id/textView20"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="left"
 
@@ -153,7 +151,6 @@
 
         <EditText
             android:id="@+id/custompt"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
@@ -177,12 +174,12 @@
 
         <Button
             android:id="@+id/calculate"
-            android:layout_span="2"
-
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
 
+            android:layout_column="0"
+
+            android:layout_span="2"
+            android:gravity="center"
             android:onClick="calculateTips"
             android:text="calculate" />
     </TableRow>
